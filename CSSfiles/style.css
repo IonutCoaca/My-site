@@ -23,18 +23,40 @@ h2{
   color : #66BFBF;
 }
 
+h3{
+  color : #11999E
+}
+hr{
+  background-color: #EAF6F6;
+    width: 5%;
+    border : none;
+    border-top: dotted 7px;
+    border-top-color: grey;
+}
+
+p{
+  color : #40514e
+}
+
+
+a{
+  color: #11999e;
+  margin : 50px;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #eaf6f6;
+}
 .top-container {
   padding-top: 100px;
-  background-color: #e4f9e5;
+  background-color: #EAF6F6;
   position: relative;
 }
-.middle-container{
-
-}
-.bottom-container{
 
 
-}
+
 
 .bottom-cloud {
   position: absolute;
@@ -49,6 +71,67 @@ h2{
 }
 .profile-image{
   border-radius: 50%;
-  width : 200px;
-  height: 200px;
+  width : 250px;
+  height: 250px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.image-code{
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.image-chillies{
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+  float:right;
+  margin-left: 30px;
+}
+.last-p{
+  margin-bottom: 50px;
+}
+
+.btn {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #357376 5%, #183536 100%);
+	background-color:#357376;
+	border-radius:6px;
+	border:1px solid #5dc9cf;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #357376;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #183536 5%, #357376 100%);
+	background-color:#183536;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.credits{
+  color : #eaf6f6;
+}
+
+.bottom-container{
+  position: relative;
+    background-color: #66BFBF;
+    padding: 30px 0 20px 0;
 }
